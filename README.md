@@ -19,3 +19,5 @@ cabe anotar que en la función de cada modelo se procede a guardar el modelo con
 También tiene una función para ejecutar la matriz de confusión en la que se puede enviar el título a mostrar, así como la información de clasificación de la matriz, también se puede escoger si se muestra la figura (plot) de la matriz, y por ultimo si se muestra la información de la precisión en la predicción de los tumores malignos.
 
 Para poder hacer las pruebas con los modelos se hace previamente un balanceo de datos por varios métodos, como Over sampler, Under Sampler, SMOTE Sampler, y en cada balanceo se envía a ejecutar cada modelo, luego se recibe el porcentaje de precisión de la predicción del cáncer maligno y se selecciona el que tiene la mejor tasa de predicción.
+
+Cuando se ejecuta la aplicación se sobre escriben los archivos de modelo guardados por lo que si al ejecutarlo encuentra un modelo que quiere conservar se recomienda copiarlo con otro nombre para que al volver a ejecutar se mantenga algún modelo que deseé guardar en particular.
