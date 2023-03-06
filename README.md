@@ -21,3 +21,21 @@ También tiene una función para ejecutar la matriz de confusión en la que se p
 Para poder hacer las pruebas con los modelos se hace previamente un balanceo de datos por varios métodos, como Over sampler, Under Sampler, SMOTE Sampler, y en cada balanceo se envía a ejecutar cada modelo, luego se recibe el porcentaje de precisión de la predicción del cáncer maligno y se selecciona el que tiene la mejor tasa de predicción.
 
 Cuando se ejecuta la aplicación se sobre escriben los archivos de modelo guardados por lo que si al ejecutarlo encuentra un modelo que quiere conservar se recomienda copiarlo con otro nombre para que al volver a ejecutar se mantenga algún modelo que deseé guardar en particular.
+
+
+
+Además, se creó una aplicación WEB para hacer uso del modelo seleccionado
+se debe ingresar los 30 datos requeridos para el análisis y al presionar el botón enviar el sistema le devuelve la predicción según los datos ingresados
+
+![image](https://user-images.githubusercontent.com/100064424/222997042-9a2776ec-858f-44cf-b396-2b599d0a13a2.png)
+
+ejemplo:
+
+aquí se ingresa la información para la predicción.
+
+![image](https://user-images.githubusercontent.com/100064424/222997243-ca42250f-96de-4ae7-a55d-27138083e59e.png)
+
+estos son los resultados de la predicción.
+
+![image](https://user-images.githubusercontent.com/100064424/222997299-b6e5b487-dd2d-4db5-a3da-a22f474a03b8.png)
+
